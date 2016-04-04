@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="duoy.cn.fancydemo.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="borrow"
+        android:id="@+id/borrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Borrow"
+       android:layout_gravity="center_horizontal"/>
+    <Button
+        android:onClick="lend"
+        android:id="@+id/lend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lend"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:onClick="query"
+        android:id="@+id/query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Query"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
