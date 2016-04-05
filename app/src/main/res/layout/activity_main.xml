@@ -6,25 +6,37 @@
     tools:context="duoy.cn.fancydemo.MainActivity"
     android:orientation="vertical">
 
-    <Button
-        android:onClick="borrow"
+    <TextView
         android:id="@+id/borrow"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/button_blue"
+        android:gravity="center"
         android:text="Borrow"
-       android:layout_gravity="center_horizontal"/>
-    <Button
-        android:onClick="lend"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+
+    <TextView
         android:id="@+id/lend"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/button_blue"
+        android:gravity="center"
         android:text="Lend"
-        android:layout_gravity="center_horizontal"/>
-    <Button
-        android:onClick="query"
+        android:textColor="#000"
+        android:textStyle="bold" />
+    <TextView
         android:id="@+id/query"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/button_blue"
+        android:gravity="center"
         android:text="Query"
-        android:layout_gravity="center_horizontal"/>
+        android:textColor="#000"
+        android:textStyle="bold" />
+
 </LinearLayout>
