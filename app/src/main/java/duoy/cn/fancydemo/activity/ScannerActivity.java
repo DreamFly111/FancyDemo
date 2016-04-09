@@ -30,5 +30,6 @@ public class ScannerActivity extends BaseActivity{
         }
         SimpleScannerFragment scannerFragment = (SimpleScannerFragment)findFragmentById(R.id.frame_layout);
         scannerFragment.resumeScanner();
+
     }
 }

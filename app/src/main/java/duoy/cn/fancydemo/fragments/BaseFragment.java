@@ -6,7 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import duoy.cn.meplusclienttest.activity.BaseActivity;
+import duoy.cn.fancydemo.activity.BaseActivity;
+
 
 public class BaseFragment extends android.support.v4.app.Fragment{
     private static final String TAG = BaseFragment.class.getSimpleName();

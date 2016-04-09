@@ -101,12 +101,18 @@ dependencies {
     compile "com.squareup.retrofit2:converter-jackson:$retrofit_version"
     compile "com.squareup.retrofit2:adapter-rxjava:$retrofit_version"*/
 
+    compile 'com.squareup.retrofit2:converter-jackson:2.0.0-beta4'
     compile 'com.squareup.retrofit2:converter-scalars:2.0.0-beta4'
     compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
     compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
 
+    compile 'io.reactivex:rxandroid:1.1.0'
+
     // kotlin
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile 'org.jetbrains.kotlin:kotlin-stdlib:1.0.0'
     //Jackson
     compile 'com.fasterxml.jackson.datatype:jackson-datatype-pcollections:2.7.2'
+    // multidex
+    compile 'com.android.support:multidex:1.0.0'
+
 }
